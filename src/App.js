@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Controlled from "./components/controlled and Uncontrolled/controlled/Controlled";
+import UnControlled from "./components/controlled and Uncontrolled/Uncontrolled/Uncontrolled";
+import Hoc from "./components/HOC/Hoc";
+import LoginPage from "./components/HOC/LoginPage";
+import Search from "./components/Serach/Serach";
 
-function App() {
+function App({ name }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <h1>welcome User !! {name}</h1> */}
+      <LoginPage />
     </div>
   );
 }
 
-export default App;
+export default Hoc(App);

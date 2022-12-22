@@ -1,0 +1,51 @@
+.outerside{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    border: solid;
+    border-radius: 100%;
+    margin: auto;
+    background-color: black;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+.innerside{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border:solid #FF0000;
+    border-radius: 100%;
+    left: 0;
+    right: 0;
+    top:50%;
+    margin: auto;
+    transform: translateY(-50%);
+    background-color: #FF0000;
+
+}
+.left{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border:solid green;
+    border-radius: 100%;
+    margin-left: -15px;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    background-color:green;
+}
+.right{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border:solid green;
+    border-radius: 100%;
+    right: 0;
+    margin-right: -15px;
+    top:50%;
+    transform: translateY(-50%);
+    background-color:green;
+}
