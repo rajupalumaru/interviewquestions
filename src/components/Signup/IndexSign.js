@@ -18,7 +18,7 @@ const IndexSign = () => {
 
     const submitHanlder = (e) => {
         e.preventDefault();
-        axios.post('https://teluguskill-610f0-default-rtdb.firebaseio.com/register.json', data)
+        axios.post('https://teluguskill-610f0-default-rtdb.firebaseio.com/signin.json', data)
             .then(() => alert("submitted successfully"))
 
     }

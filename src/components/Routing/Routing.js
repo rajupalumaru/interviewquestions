@@ -5,12 +5,12 @@ import Navbar from './Navbar'
 const Routing = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar />
         <Switch>
          <Route path='/' exact component={Home}/>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   )
 }
