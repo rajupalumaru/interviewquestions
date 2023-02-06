@@ -11,7 +11,7 @@ const OptionChaiting = () => {
     console.log(obj.dog?.name);
     return (
         <div>
-
+            
         </div>
     )
 }
