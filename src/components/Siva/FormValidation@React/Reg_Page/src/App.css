@@ -1,0 +1,243 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+div#root {
+  height: 100%;
+}
+.app-main {
+  height: 100%;
+}
+.signup-page {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 246, 246, 1) 15%,
+    rgba(249, 249, 249, 1) 27%,
+    rgba(230, 246, 244, 1) 40%,
+    rgba(237, 252, 252, 1) 53%,
+    rgba(209, 247, 249, 0.6) 68%,
+    rgba(156, 173, 183, 0.6) 100%
+  );
+  /* height: 100%; */
+}
+.sign-main {
+  max-width: 745px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 13px 2px #bdb9b975;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  /* top: 50%;
+  transform: translateY(-50%); */
+  display: flex;
+}
+h5 {
+  color: black !important;
+}
+.welcome {
+  height: 100%;
+}
+.welcome {
+  height: 100%;
+  color: green;
+  font-size: 20px;
+}
+.log_btn {
+  display: block;
+  margin: 10px auto;
+}
+/* .sign-main:after {
+  position: absolute;
+  content: "";
+  background: url(https://thumbs.dreamstime.com/b/space-shuttle-booster-rocket-rockets-propel-spaceship-outer-space-to-explore-cosmos-universe-113959295.jpg)
+    #fff;
+  z-index: 1;
+  right: 1px;
+  border-radius: 0px 10px 10px 0px;
+  top: 50%;
+  background-size: cover;
+  width: 284px;
+  height: 523px;
+  transform: translateY(-50%);
+} */
+
+.sign-up {
+  padding: 30px 50px;
+  max-width: 450px;
+  position: relative;
+  z-index: 2;
+}
+.sign-up h2 {
+  color: #404095;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.sign-up > span {
+  color: red;
+  text-align: left;
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  font-size: 15px;
+}
+.sign-up > span:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  top: 10px;
+}
+.signup-btns {
+  text-align: left;
+}
+.signup-btns Button {
+  padding: 7px 9px;
+  font-size: 13px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  margin: 16px 10px 16px 0;
+  color: black;
+  width: 48%;
+}
+.signup-btns Button:nth-child(2) {
+  margin-right: 0;
+  width:100px;
+}
+/* .form-ctn {
+  padding: 0 8px;
+} */
+.form-in {
+  padding: 0 0 10px;
+}
+.form-in.row {
+  margin: 0 -8px;
+}
+.form-in label {
+  font-size: 13px;
+  margin: 0 0 3px;
+}
+.form-in > span {
+  font-size: 13px;
+  margin-top: -3px;
+}
+.form-in input {
+  background-color: #ebf3f391;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  height: 35px;
+  padding: 0 10px;
+  width: 100%;
+  outline: none;
+}
+.form-in input.check {
+  font-size: 20px;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.form-check {
+  display: flex;
+  padding: 10px 0 0;
+}
+Button.sign-btn {
+  background-color: orangered;
+  height: 40px;
+  border-radius: 14px;
+  border: 0;
+  color: white;
+  margin: 23px 0;
+  width: 44px;
+  font-size: 17px;
+  line-height: 14px;
+  box-shadow: 0px 0px 7px 2px #d1d1d1;
+}
+form p a {
+  color: orangered;
+  text-decoration: none;
+}
+span.success-msg {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 0 20px;
+}
+span.success-msg:before {
+  display: none;
+}
+.error {
+  color: red;
+  margin-top: 3px;
+  font-size: 15px;
+  display: block;
+  font-size: 13px;
+}
+@media only screen and (max-width: 767px) {
+  .sign-main {
+    margin: 0 15px;
+  }
+  .sign-up {
+    padding: 20px 16px;
+    max-width: 342px;
+  }
+  .signup-btns Button {
+    font-size: 12px;
+    padding: 7px 5px;
+  }
+  .signup-img img {
+    width: 207px;
+    height: auto;
+  }
+  .signup-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .sign-up {
+    max-width: 342px;
+    max-width: 100%;
+  }
+  .sign-main {
+    display: block;
+  }
+  .signup-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .sign-up {
+    padding: 25px 20px;
+  }
+  .sign-main {
+    margin: 0 10px;
+  }
+  .signup-btns > Button {
+    width: 100%;
+    margin: 14px 0 0;
+  }
+  .form-in input {
+    background-color: #ffffffc7;
+  }
+  .form-ctn.col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  .sign-main:after {
+    position: static;
+  }
+}

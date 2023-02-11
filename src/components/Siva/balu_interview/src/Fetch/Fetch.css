@@ -1,0 +1,36 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  td {
+    border: 1px solid black;
+  }
+  input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 200px;
+    float: right;
+  }
+  h2 {
+    float: left;
+    display: inline-block;
+  }
+  .Tb-data {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .Tb-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .main-tb {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
