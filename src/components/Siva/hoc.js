@@ -24,7 +24,7 @@ const Reuse=(arr,logic,logic1)=>{
   return answer+ " " + new1;
 }
 console.log(Reuse(arr,square, cubes)) */}
-//hoc
+
 
             {/* const square=(num)=>{
     return num*num
